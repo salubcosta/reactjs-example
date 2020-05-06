@@ -4,20 +4,20 @@ import * as S from './styles';
 import logo from '../../assets/images/logo.png';
 import alert from '../../assets/images/alert.png'
 
-function Header(){
+function Header(){ /*eslint-disable */
     return (
         <S.Container>
             <S.LeftSide>
                 <img src={logo} alt='Logo' />
             </S.LeftSide>
             <S.RightSide>
-                <a href='#'>INÍCIO</a>
+                <a>INÍCIO</a> 
                 <span className='divider' />
-                <a href='#'>NOVA TAREFA</a>
+                <a>NOVA TAREFA</a>
                 <span className='divider' />
-                <a href='#'>SINCRONIZAR CELULAR</a>
+                <a>SINCRONIZAR CELULAR</a>
                 <span className='divider' />
-                <a href='#' id='notification'>
+                <a id='notification'>
                     <img src={alert} alt='Notificação' />
                     <span>5</span>
                 </a>
